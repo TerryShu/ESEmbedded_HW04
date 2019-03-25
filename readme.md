@@ -116,8 +116,7 @@ CLEAR_BIT(GPIO_BASE(GPIO_PORTA) + GPIOx_PUPDR_OFFSET, PUPDRy_0_BIT(GPIO_PORTA));
 寫一個 Marco 計算 Reg 位置
 ```clike=
 #define GPIOx_IDR_OFFSET 0x10
-#define IDR_1_BIT(y) ((y)*2+1)
-#define IDR_0_BIT(y) ((y)*2)
+#define IDRy_BIT(y) (y)
 ```
 寫一個 Read_Bit Marco 取得特定位數 bit 資料
 ```clike=
