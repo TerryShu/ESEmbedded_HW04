@@ -22,6 +22,7 @@
 #define GPIO_PORTB 1
 #define GPIO_PORTC 2
 #define GPIO_PORTD 3
+#define PA0 0
 
 #define GPIO_BASE(port) (0x40020000 + 0x400 * (port))
 
@@ -45,7 +46,6 @@
 #define BSy_BIT(y) (y)
 
 #define GPIOx_IDR_OFFSET 0x10
-#define IDRy_1_BIT(y) ((y)*2 + 1)
-#define IDRy_0_BIT(y) ((y)*2)
+#define IDRy_BIT(y) (y)
 
 #endif
