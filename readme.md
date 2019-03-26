@@ -40,7 +40,7 @@ This is the hw04 sample. Please follow the steps below.
 
 --------------------
 
-- [x] **If you volunteer to give the presentation (demo) next week, check this.**
+- [ ] **If you volunteer to give the presentation (demo) next week, check this.**
 
 --------------------
 
